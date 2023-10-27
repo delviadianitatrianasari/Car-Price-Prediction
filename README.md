@@ -85,7 +85,7 @@ Model yang digunakan adalah Regresi Linier, yang merupakan pilihan yang sesuai u
 Melatih model Regresi Linier menggunakan data pelatihan (X_train, y_train) dengan menggunakan LinearRegression dari sklearn. Model ini akan mempelajari hubungan antara fitur-fitur input (X) dan variabel target (y).
 
 ## Evaluation
-Dalam proyek prediksi harga mobil dengan menggunakan Regresi Linear, metrik evaluasi yang saya gunakan digunakan adalah Root Mean Square Error (RMSE) dan R-squared (R^2). <br>
+Dalam proyek prediksi harga mobil dengan menggunakan Regresi Linear, metrik evaluasi yang saya gunakan adalah Root Mean Square Error (RMSE) dan R-squared (R^2). <br>
  - **Root Mean Square Error (RMSE)**
  Dalam proyek ini, RMSE sebesar 0.0294 (atau sekitar 2.94%) menunjukkan bahwa model memiliki kesalahan rata-rata sekitar 2.94% dalam memprediksi harga mobil.<br>    
 - **R-squared (R^2)**
