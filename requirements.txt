@@ -1,8 +1,9 @@
 numpy 
 pandas 
-sklearn 
-streamlit==1.15.0
-matplotlib==3.5.2
+seaborn
+sckit-learn
+streamlit==0.24.0
+matplotlib==3.4.3
 
 
 
