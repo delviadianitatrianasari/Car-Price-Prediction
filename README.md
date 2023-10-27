@@ -96,5 +96,5 @@ Berdasarkan metrik evaluasi RMSE dan R^2, proyek ini memberikan hasil yang posit
 
 ## Deployment
 Car Price Prediction - https://pricecar-prediction-fymqkwf7brytryxjfqjw3h.streamlit.app/
-![Alt text](pic1.png)
+![Alt text](Pic1.png)
 ![Alt text](pic2.png)
