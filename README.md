@@ -71,7 +71,7 @@ Memisahkan data menjadi data pelatihan dan data pengujian menggunakan train_test
 Melakukan pemodelan Regresi Linear pada data yang telah dipersiapkan.
 Model Regresi Linear dilatih dan dievaluasi dengan menggunakan metrik R-squared (R^2) dan Root Mean Square Error (RMSE).
 ## Modeling<br>
-Dalam tahap Modeling proyek prediksi harga mobil, saya akan menggunakan model Regresi Linier untuk memprediksi harga mobil. Regresi Linier adalah salah satu metode machine learning yang paling sederhana dan umum digunakan untuk masalah prediksi berdasarkan hubungan linier antara variabel independen dan variabel target.
+Dalam tahap Modeling proyek prediksi harga mobil, saya menggunakan model Regresi Linier untuk memprediksi harga mobil. Regresi Linier adalah salah satu metode machine learning yang paling sederhana dan umum digunakan untuk masalah prediksi berdasarkan hubungan linier antara variabel independen dan variabel target.
 
 Tahapan Pemodelan :
 - Pemisahan Data
