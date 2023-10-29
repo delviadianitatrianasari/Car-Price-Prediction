@@ -27,7 +27,7 @@ Bagian laporan ini mencakup:
 ### Solution statements
 - Menggunakan Feature Elimination(RFE) untuk mengidentifikasi fitur-fitur yang paling berpengaruh terhadap prediksi harga mobil. Hal ini akan membantu dalam mengurangi komplesitas model dan meningkatkan interprestasi.
 - Model Regresi Linier akan dikembangkan dengan menggunakan data pelatihan. Model ini akan digunakan untuk memprediksi harga mobil berdasarkan fitur-fitur yang telah dipilih melalui RFE.
-- Kinerja model akan dievaluasi menggunakan metrik evaluasi yang relevan, seperti RMSE (Root Mean Square Error), MAE (Mean Absolute Error), dan R-squared (R^2). Tujuan utama adalah untuk mencapai akurasi prediksi yang baik. 
+- Kinerja model akan dievaluasi menggunakan metrik evaluasi yang relevan, seperti RMSE (Root Mean Square Error), dan R-squared (R^2). Tujuan utama adalah untuk mencapai akurasi prediksi yang baik. 
 
 
 ## Data Understanding
