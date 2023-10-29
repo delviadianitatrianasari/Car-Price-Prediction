@@ -31,7 +31,8 @@ Bagian laporan ini mencakup:
 
 
 ## Data Understanding
-Di dalam dataset "Car Data" berisi kumpulan data yang mengandung informasi tentang berbagai jenis mobil,termasuk atribut-atribut pembuatan seperti merek,model,spesifikasi teknis,dan harga jualnya. untuk jumlah atribut yang terdapat pada data ini yaitu berjumlah 26 tetapi disini saya hanya menggunakan 9 atribut yang terdiri dari"CarName,wheelbase,curbweight,enginesize,boreratio,horsepower,carlength,carwidth,dan price".<br> 
+Di dalam dataset "Car Data" berisi kumpulan data yang mengandung informasi tentang berbagai jenis mobil,termasuk atribut-atribut pembuatan seperti merek,model,spesifikasi teknis,dan harga jualnya. untuk jumlah atribut yang terdapat pada data ini yaitu berjumlah 26 tetapi disini saya hanya menggunakan 9 atribut yang terdiri dari"CarName,wheelbase,curbweight,enginesize,
+boreratio,horsepower,carlength,carwidth,dan price".<br> 
 
 [Car Data Dataset](https://www.kaggle.com/datasets/goyalshalini93/car-data/data).
 
@@ -83,9 +84,9 @@ Melatih model Regresi Linier menggunakan data pelatihan (X_train, y_train) denga
 ## Evaluation
 Dalam proyek prediksi harga mobil dengan menggunakan Regresi Linear, metrik evaluasi yang saya gunakan adalah Root Mean Square Error (RMSE) dan R-squared (R^2). <br>
  - **Root Mean Square Error (RMSE)**
- Dalam proyek ini, RMSE sebesar 0.0294 (atau sekitar 2.94%) menunjukkan bahwa model memiliki kesalahan rata-rata sekitar 2.94% dalam memprediksi harga mobil.<br>    
+ Dalam proyek ini, RMSE sebesar **0.0294 (atau sekitar 2.94%)** menunjukkan bahwa model memiliki kesalahan rata-rata sekitar 2.94% dalam memprediksi harga mobil.<br>    
 - **R-squared (R^2)**
-Dalam proyek ini, R^2 sebesar 0.882, yang berarti model Anda mampu menjelaskan sekitar 88.2% dari variabilitas harga mobil. Ini menunjukkan bahwa model ini memiliki kemampuan yang baik dalam menjelaskan variasi dalam harga mobil.
+Dalam proyek ini, R^2 sebesar **0.882**, yang berarti model Anda mampu menjelaskan sekitar **88.2%** dari variabilitas harga mobil. Ini menunjukkan bahwa model ini memiliki kemampuan yang baik dalam menjelaskan variasi dalam harga mobil.
 
 Berdasarkan metrik evaluasi RMSE dan R^2, proyek ini memberikan hasil yang positif. Model Regresi Linear yang telah dikembangkan mampu memprediksi harga mobil dengan akurasi yang baik. RMSE yang rendah menunjukkan bahwa kesalahan prediksi model relatif kecil, sementara R^2 yang tinggi mengindikasikan bahwa model mampu menjelaskan sebagian besar variabilitas dalam harga mobil.
 
