@@ -31,7 +31,7 @@ Bagian laporan ini mencakup:
 
 
 ## Data Understanding
-Di dalam dataset "Car Data" berisi kumpulan data yang mengandung informasi tentang berbagai jenis mobil,termasuk atribut-atribut pembuatan seperti merek,model,spesifikasi teknis,dan harga jualnya. untuk jumlah atribut yang terdapat pada data ini yaitu berjumlah 26 tetapi disini saya hanya menggunakan 9 atribut yang terdiri dari"CarName,wheelbase,curbweight,enginesize,
+Di dalam dataset "Car Data" berisi kumpulan data yang mengandung informasi tentang berbagai jenis mobil,termasuk atribut-atribut pembuatan seperti merek,model,spesifikasi teknis,dan harga jualnya. untuk jumlah atribut yang terdapat pada data ini yaitu berjumlah 26 tetapi disini saya hanya menggunakan 9 atribut yang terdiri dari "CarName,wheelbase,curbweight,enginesize,
 boreratio,horsepower,carlength,carwidth,dan price".<br> 
 
 [Car Data Dataset](https://www.kaggle.com/datasets/goyalshalini93/car-data/data).
