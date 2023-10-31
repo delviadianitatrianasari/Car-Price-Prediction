@@ -108,12 +108,24 @@ print ("R^2 is: \n", model.score(X_test, y_test))
 ![Alt text](ModelLR.png)
 
 ## Evaluation
-Dalam proyek prediksi harga mobil dengan menggunakan Regresi Linear, metrik evaluasi yang saya gunakan adalah Root Mean Square Error (RMSE) dan R-squared (R^2). <br>
+Dalam proyek prediksi harga mobil dengan menggunakan Regresi Linear, metrik evaluasi yang saya gunakan digunakan adalah Root Mean Square Error (RMSE) dan R-squared (R^2). <br>
  - **Root Mean Square Error (RMSE)**
- Dalam proyek ini, RMSE sebesar **0.0294 (atau sekitar 2.94%)** menunjukkan bahwa model memiliki kesalahan rata-rata sekitar 2.94% dalam memprediksi harga mobil.<br>    
-- **R-squared (R^2)**
-Dalam proyek ini, R^2 sebesar **0.882**, yang berarti model Anda mampu menjelaskan sekitar **88.2%** dari variabilitas harga mobil. Ini menunjukkan bahwa model ini memiliki kemampuan yang baik dalam menjelaskan variasi dalam harga mobil.
+ Dalam proyek ini, RMSE sebesar 0.0294 (atau sekitar 2.94%) menunjukkan bahwa model memiliki kesalahan rata-rata sekitar 2.94% dalam memprediksi harga mobil.<br>    
+ ```python
+ predictions = model.predict(X_test)
+ print ('RMSE is: \n', mean_squared_error(y_test, predictions))
+ ```
+>***RMSE is:0.0438169291057123***
 
+- **R-squared (R^2)**
+Dalam proyek ini, R^2 sebesar 0.882, yang berarti model Anda mampu menjelaskan sekitar 88.2% dari variabilitas harga mobil. Ini menunjukkan bahwa model ini memiliki kemampuan yang baik dalam menjelaskan variasi dalam harga mobil.
+Berdasarkan metrik evaluasi RMSE dan R^2, proyek ini memberikan hasil yang positif. Model Regresi Linear yang telah dikembangkan mampu memprediksi harga mobil dengan akurasi yang baik. RMSE yang rendah menunjukkan bahwa kesalahan prediksi model relatif kecil, sementara R^2 yang tinggi mengindikasikan bahwa model mampu menjelaskan sebagian besar variabilitas dalam harga mobil.
+```python
+lr = linear_model.LinearRegression()
+model = lr.fit(X_train, y_train)  
+print ("R^2 is: \n", model.score(X_test, y_test))
+```
+>***R^2 is:0.8242427962472653***
 Berdasarkan metrik evaluasi RMSE dan R^2, proyek ini memberikan hasil yang positif. Model Regresi Linear yang telah dikembangkan mampu memprediksi harga mobil dengan akurasi yang baik. RMSE yang rendah menunjukkan bahwa kesalahan prediksi model relatif kecil, sementara R^2 yang tinggi mengindikasikan bahwa model mampu menjelaskan sebagian besar variabilitas dalam harga mobil.
 
 
