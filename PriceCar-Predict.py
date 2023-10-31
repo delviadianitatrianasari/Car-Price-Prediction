@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import image
 import pickle
 
 # Load the model and data
