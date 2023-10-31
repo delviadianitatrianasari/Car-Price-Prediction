@@ -1,10 +1,12 @@
 import streamlit as st
+from PIL import image
 import pickle
 
 # Load the model and data
 model = pickle.load(open("PriceCar-Predict.sav", "rb"))
 
 st.title('Car Price Prediction')
+st.image('car.jpg')
 st.write('Enter the following features to predict the price of the car :')
 
 CarName= st.selectbox('Car Company',['alfa-romero', 'audi', 'bmw', 'chevrolet', 'dodge', 'honda',
