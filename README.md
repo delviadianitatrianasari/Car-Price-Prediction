@@ -92,15 +92,18 @@ Memisahkan data menjadi data pelatihan dan data pengujian menggunakan train_test
 Melakukan pemodelan Regresi Linear pada data yang telah dipersiapkan.
 Model Regresi Linear dilatih dan dievaluasi dengan menggunakan metrik R-squared (R^2) dan Root Mean Square Error (RMSE).
 ## Modeling<br>
-Dalam tahap Modeling proyek prediksi harga mobil, saya menggunakan model Regresi Linier untuk memprediksi harga mobil. Regresi Linier adalah salah satu metode machine learning yang paling sederhana dan umum digunakan untuk masalah prediksi berdasarkan hubungan linier antara variabel independen dan variabel target.
-
-Tahapan Pemodelan :
-- Pemisahan Data
-Memisahkan data menjadi data pelatihan (X_train, y_train) dan data pengujian (X_test, y_test) menggunakan train_test_split. Ini adalah langkah penting untuk memastikan memiliki data terpisah untuk melatih dan menguji model.
-- Pemilihan Model
-Model yang digunakan adalah Regresi Linier, yang merupakan pilihan yang sesuai untuk memprediksi harga mobil berdasarkan hubungan linier antara atribut-atribut (fitur) dengan harga.
-- Pelatihan Model
-Melatih model Regresi Linier menggunakan data pelatihan (X_train, y_train) dengan menggunakan LinearRegression dari sklearn. Model ini akan mempelajari hubungan antara fitur-fitur input (X) dan variabel target (y).
+Dalam tahap Modeling proyek prediksi harga mobil, saya akan menggunakan model Regresi Linier untuk memprediksi harga mobil. Regresi Linier adalah salah satu metode machine learning yang paling sederhana dan umum digunakan untuk masalah prediksi berdasarkan hubungan linier antara variabel independen dan variabel target.
+```python
+from sklearn import linear_model
+lr = linear_model.LinearRegression()
+```
+```python
+model = lr.fit(X_train, y_train)
+```
+```python
+print ("R^2 is: \n", model.score(X_test, y_test))
+```
+![Alt text](ModelLR.png)
 
 ## Evaluation
 Dalam proyek prediksi harga mobil dengan menggunakan Regresi Linear, metrik evaluasi yang saya gunakan adalah Root Mean Square Error (RMSE) dan R-squared (R^2). <br>
