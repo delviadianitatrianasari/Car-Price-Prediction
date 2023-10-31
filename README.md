@@ -125,7 +125,7 @@ lr = linear_model.LinearRegression()
 model = lr.fit(X_train, y_train)  
 print ("R^2 is: \n", model.score(X_test, y_test))
 ```
->***R^2 is:0.8242427962472653***
+>***R^2 is:0.8242427962472653***<br>
 Berdasarkan metrik evaluasi RMSE dan R^2, proyek ini memberikan hasil yang positif. Model Regresi Linear yang telah dikembangkan mampu memprediksi harga mobil dengan akurasi yang baik. RMSE yang rendah menunjukkan bahwa kesalahan prediksi model relatif kecil, sementara R^2 yang tinggi mengindikasikan bahwa model mampu menjelaskan sebagian besar variabilitas dalam harga mobil.
 
 
