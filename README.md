@@ -47,9 +47,30 @@ boreratio,horsepower,carlength,carwidth,dan price".<br>
 - **carwidth**  :Merupakan ukuran lebar mobil.
 - **Price**     :Merupakan nilai yang ingin diprediksi dalam proyek ini,yaitu harga mobil.
 
+**Visualisasi Data**
+![Alt text](CategoricalData.png)
+![Alt text](NumericalData.png)
+![Alt text](EngineTypeVsPrice.png)
+
 ## Data Preparation
+-  **Mencari Dataset yang berisi informasi tentang data mobil**<br>
+Kumpulan data yang mengandung informasi terkait dengan berbagai aspek mobil. Disini saya menggunakan dataset dari Kaggle [Car Data Dataset](https://www.kaggle.com/datasets/goyalshalini93/car-data/data).
 - **Import Library dan Baca Data**<br>
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn import linear_model
+from sklearn.metrics import mean_squared_error
+```
+
+```python
+cars = pd.read_csv('car-data/CarPrice_Assignment.csv')
+```
 Data dari file CSV ("CarPrice_Assignment.csv") dibaca ke dalam DataFrame Pandas.
+
 - **Penambahan Atribut "CompanyName" dan Normalisasi Merek Mobil**<br>
 Membuat atribut baru "CompanyName" dengan mengambil nama merek mobil dari atribut "CarName" dengan menggunakan apply dan split.
 Atribut "CarName" yang tidak diperlukan dihapus.
