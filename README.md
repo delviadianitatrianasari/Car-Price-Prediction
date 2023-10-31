@@ -37,15 +37,17 @@ boreratio,horsepower,carlength,carwidth,dan price".<br>
 [Car Data Dataset](https://www.kaggle.com/datasets/goyalshalini93/car-data/data)
 
 ### Variabel-variabel pada Car Data Dataset adalah sebagai berikut:
-- **CarName**   :Merupakan nama merek mobil untuk mengetahui informasi identifikasi tentang mobil-mobil dalam dataset.
-- **wheelbase** :Merupakan indikasi tentang ukuran mobil.
-- **curbweight**:Merupakan indikator dari berat mobil tanpa penumpang atau beban tambahan.   
-- **enginesize**:Merupakan kapasitas mesin mobil yang mengukur volume total dari semua silinder dalam mesin.
-- **boreratio** :Merupakan variable yang mengacu pada rasio diameter lubang silinder terhadap panjang langkah(stroke) dalam mesin.
-- **horsepower**:Merupakan ukuran tenaga mobil,untuk mengindikasikan data yang dihasilkan oleh mesin dan sering digunakan sebagai metrik performa. 
-- **carlength** :Merupakan panjang keseluruhan mobil dari depan hingga belakang mobil.
-- **carwidth**  :Merupakan ukuran lebar mobil.
-- **Price**     :Merupakan nilai yang ingin diprediksi dalam proyek ini,yaitu harga mobil.
+| No. | Nama Variabel | Tipe Data | Keterangan |
+|-----|---------------|-----------|------------|
+|  1. |CarName        |object     |Merupakan nama merek mobil untuk mengetahui informasi identifikasi tentang mobil-mobil dalam dataset.|
+|  2.  |wheelbase     |float        |Merupakan indikasi tentang ukuran mobil.|
+|  3.  |curbweight    |int        |Merupakan indikator dari berat mobil tanpa penumpang atau beban tambahan.|
+|  4.  |enginesize    |int          |Merupakan kapasitas mesin mobil yang mengukur volume total dari semua silinder dalam mesin.|
+|  5.  |boreratio     |float        |Merupakan variable yang mengacu pada rasio diameter lubang silinder terhadap panjang langkah(stroke) dalam mesin.|
+|  6.  |horsepower    |int        |Merupakan ukuran tenaga mobil,untuk mengindikasikan data yang dihasilkan oleh mesin dan sering digunakan sebagai metrik performa.|
+|  7.  |carlength     |float        |Merupakan panjang keseluruhan mobil dari depan hingga belakang mobil.|
+|  8.  |carwidth      |float        |Merupakan ukuran lebar mobil.|
+|  9.  |price         |int        |Merupakan nilai yang ingin diprediksi dalam proyek ini,yaitu harga mobil.|
 
 **Visualisasi Data**
 ![Alt text](CategoricalData.png)
