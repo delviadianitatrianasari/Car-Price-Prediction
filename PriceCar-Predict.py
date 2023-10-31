@@ -7,7 +7,10 @@ model = pickle.load(open("PriceCar-Predict.sav", "rb"))
 st.title('Car Price Prediction')
 st.write('Enter the following features to predict the price of the car :')
 
-CarName= st.number_input('Car Company')
+CarName= st.selectbox('Car Company',['alfa-romero', 'audi', 'bmw', 'chevrolet', 'dodge', 'honda',
+       'isuzu', 'jaguar', 'mazda', 'buick', 'mercury', 'mitsubishi',
+       'nissan', 'peugeot', 'plymouth', 'porsche', 'renault', 'saab',
+       'subaru', 'toyota', 'volkswagen', 'volvo'])
 wheelbase= st.number_input('Wheelbase')
 curbweight = st.number_input('Curb Weigh')
 enginesize = st.number_input('Engine Size')
