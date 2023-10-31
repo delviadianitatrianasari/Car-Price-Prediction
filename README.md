@@ -49,7 +49,7 @@ boreratio,horsepower,carlength,carwidth,dan price".<br>
 |  8.  |carwidth      |float        |Merupakan ukuran lebar mobil.|
 |  9.  |price         |int        |Merupakan nilai yang ingin diprediksi dalam proyek ini,yaitu harga mobil.|
 
-**Visualisasi Data**
+**Visualisasi Data :**
 ![Alt text](CategoricalData.png)
 ![Alt text](NumericalData.png)
 ![Alt text](EngineTypeVsPrice.png)
